@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Должность",
+  "name": "IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiДолжностьE",
+  "className": "ДолжностьE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-должность",
+      "modelProjection": "ДолжностьE"
+    }
+  ]
+}

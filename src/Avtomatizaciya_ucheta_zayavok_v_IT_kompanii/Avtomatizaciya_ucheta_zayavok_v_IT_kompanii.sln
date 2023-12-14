@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avtomatizaciya_ucheta_zayavok_v_IT_kompanii.Objects", "Objects/Avtomatizaciya_ucheta_zayavok_v_IT_kompanii.Objects.csproj", "e8e2e630-c7e6-4f9c-8abb-c61a5650cdda"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avtomatizaciya_ucheta_zayavok_v_IT_kompanii.Tests", "Tests/Avtomatizaciya_ucheta_zayavok_v_IT_kompanii.Tests.csproj", "4a30f3aa-c7cf-4a09-950b-8330fe34a80b"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avtomatizaciya_ucheta_zayavok_v_IT_kompanii.ODataBackend", "ODataBackend/Avtomatizaciya_ucheta_zayavok_v_IT_kompanii.ODataBackend.csproj", "afb28afb-6be2-406b-a6b4-71028499b799"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avtomatizaciya_ucheta_zayavok_v_IT_kompanii.IntegrationTests", "IntegrationTests/Avtomatizaciya_ucheta_zayavok_v_IT_kompanii.IntegrationTests.csproj", "52601ce4-403a-43c4-9993-5faa212c7302"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		e8e2e630-c7e6-4f9c-8abb-c61a5650cdda.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		e8e2e630-c7e6-4f9c-8abb-c61a5650cdda.Debug|Any CPU.Build.0 = Debug|Any CPU
+		e8e2e630-c7e6-4f9c-8abb-c61a5650cdda.Release|Any CPU.ActiveCfg = Release|Any CPU
+		e8e2e630-c7e6-4f9c-8abb-c61a5650cdda.Release|Any CPU.Build.0 = Release|Any CPU
+		4a30f3aa-c7cf-4a09-950b-8330fe34a80b.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		4a30f3aa-c7cf-4a09-950b-8330fe34a80b.Debug|Any CPU.Build.0 = Debug|Any CPU
+		4a30f3aa-c7cf-4a09-950b-8330fe34a80b.Release|Any CPU.ActiveCfg = Release|Any CPU
+		4a30f3aa-c7cf-4a09-950b-8330fe34a80b.Release|Any CPU.Build.0 = Release|Any CPU
+		afb28afb-6be2-406b-a6b4-71028499b799.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		afb28afb-6be2-406b-a6b4-71028499b799.Debug|Any CPU.Build.0 = Debug|Any CPU
+		afb28afb-6be2-406b-a6b4-71028499b799.Release|Any CPU.ActiveCfg = Release|Any CPU
+		afb28afb-6be2-406b-a6b4-71028499b799.Release|Any CPU.Build.0 = Release|Any CPU
+		52601ce4-403a-43c4-9993-5faa212c7302.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		52601ce4-403a-43c4-9993-5faa212c7302.Debug|Any CPU.Build.0 = Debug|Any CPU
+		52601ce4-403a-43c4-9993-5faa212c7302.Release|Any CPU.ActiveCfg = Release|Any CPU
+		52601ce4-403a-43c4-9993-5faa212c7302.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

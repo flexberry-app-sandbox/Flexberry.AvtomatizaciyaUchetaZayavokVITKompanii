@@ -1,0 +1,4 @@
+import IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiВидEController from '../i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-вид-e';
+
+var IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiВидENewController = IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiВидEController;
+export default IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiВидENewController;

@@ -1,0 +1,4 @@
+import IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiКормаEController from '../i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-корма-e';
+
+var IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiКормаENewController = IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiКормаEController;
+export default IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiКормаENewController;

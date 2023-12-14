@@ -1,0 +1,4 @@
+import IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiКлеткиEController from '../i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-клетки-e';
+
+var IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiКлеткиENewController = IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiКлеткиEController;
+export default IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiКлеткиENewController;

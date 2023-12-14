@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-корма-e",
+  "editForm": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-корма-e",
+  "external": false,
+  "caption": "Корма",
+  "name": "IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiКормаL",
+  "className": "КормаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-корма",
+      "modelProjection": "КормаL"
+    }
+  ]
+}

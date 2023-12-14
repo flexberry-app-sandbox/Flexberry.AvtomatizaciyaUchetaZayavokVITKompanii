@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-клетки-e",
+  "editForm": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-клетки-e",
+  "external": false,
+  "caption": "Клетки",
+  "name": "IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiКлеткиL",
+  "className": "КлеткиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-клетки",
+      "modelProjection": "КлеткиL"
+    }
+  ]
+}

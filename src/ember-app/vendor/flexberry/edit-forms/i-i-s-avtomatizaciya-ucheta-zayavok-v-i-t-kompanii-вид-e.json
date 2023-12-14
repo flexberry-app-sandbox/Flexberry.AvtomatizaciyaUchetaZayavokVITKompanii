@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Вид",
+  "name": "IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiВидE",
+  "className": "ВидE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-вид",
+      "modelProjection": "ВидE"
+    }
+  ]
+}

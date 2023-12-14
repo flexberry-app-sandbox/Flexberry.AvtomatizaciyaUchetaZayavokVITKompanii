@@ -1,0 +1,141 @@
+﻿{
+  "name": "IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiЖивотные",
+  "modelName": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-животные",
+  "className": "Животные",
+  "nameSpace": "IIS.Avtomatizaciya_ucheta_zayavok_v_IT_kompanii",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодВида",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": true,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерЖивотного",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": true,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудники",
+      "relatedTo": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-сотрудники",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "сведения",
+      "relatedTo": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-сведения",
+      "inverse": "животные"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ЖивотныеE",
+      "modelName": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-животные",
+      "attrs": [
+        {
+          "name": "номерЖивотного",
+          "caption": "Номер животного",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "кодВида",
+          "caption": "Код вида",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ТабличНомер",
+          "lookupValueField": "табличНомер",
+          "relationName": "Сотрудники",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "табличНомер",
+              "caption": "Таблич номер",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Сотрудники",
+          "name": "сотрудники",
+          "relatedTo": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-сотрудники",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "СведенияE",
+          "caption": "Сведения",
+          "name": "сведения",
+          "relatedTo": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-сведения",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ЖивотныеL",
+      "modelName": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-животные",
+      "attrs": [
+        {
+          "name": "номерЖивотного",
+          "caption": "Номер животного",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "кодВида",
+          "caption": "Код вида",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Сотрудники",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "табличНомер",
+              "caption": "Таблич номер",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Таблич номер",
+          "name": "сотрудники",
+          "relatedTo": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-сотрудники",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

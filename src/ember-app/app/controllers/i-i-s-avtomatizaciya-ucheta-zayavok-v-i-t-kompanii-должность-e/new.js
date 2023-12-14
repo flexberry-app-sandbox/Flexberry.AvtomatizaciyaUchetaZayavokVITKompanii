@@ -1,0 +1,4 @@
+import IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiДолжностьEController from '../i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-должность-e';
+
+var IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiДолжностьENewController = IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiДолжностьEController;
+export default IISAvtomatizaciya_ucheta_zayavok_v_IT_kompaniiДолжностьENewController;

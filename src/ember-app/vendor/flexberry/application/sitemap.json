@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "Avtomatizaciya_ucheta_zayavok_v_ i t_kompanii",
+  "applicationTitle": "Avtomatizaciya_ucheta_zayavok_v_ i t_kompanii",
+  "items": [
+    {
+      "link": null,
+      "menuName": "avtomatizaciya-ucheta-zayavok-v-i-t-kompanii",
+      "caption": "Avtomatizaciya_ucheta_zayavok_v_IT_kompanii",
+      "title": "Avtomatizaciya_ucheta_zayavok_v_IT_kompanii",
+      "children": [
+        {
+          "link": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-животные-l",
+          "menuName": null,
+          "caption": "Животные",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-вид-l",
+          "menuName": null,
+          "caption": "Вид",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-клетки-l",
+          "menuName": null,
+          "caption": "Клетки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-avtomatizaciya-ucheta-zayavok-v-i-t-kompanii-корма-l",
+          "menuName": null,
+          "caption": "Корма",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
